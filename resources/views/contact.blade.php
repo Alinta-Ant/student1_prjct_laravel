@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studentapp</title>
+    <title>Document</title>
 </head>
 <body>
 
@@ -25,7 +25,7 @@
           <a class="nav-link" href="/contact">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/faculty"  >Faculty</a>
+          <a class="nav-link" href="/faculty">Faculty</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -37,37 +37,29 @@
 </nav>
 
 
-<div class="container">
-    <div class="row">
-        <div class="col col-12 col-sm-4 col-md-4 col-lg-4">
-        
-        </div>
-        <div class="col col-12 col-sm-4 col-md-4 col-lg-4">
-            <table class="table table-borderless ">
-                <tr>
-                    <td>Username</td>
-                    <td><input type="text" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>Roll No:</td>
-                    <td><input type="text" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>Admission No:</td>
-                    <td><input type="text" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td>Password</td>
-                    <td><input type="password" class="form-control"></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><button class="btn btn-success">Submit</button></td>
-                </tr>
-            </table>
+    <div class="container">
+        <div class="row">
+            <div class="col col-12 col-sm-4 col-md-4 col-lg-4">
+                <table class="table">
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Message</td>
+                        <td><input type="textarea" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone number</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button class="btn btn-success">SUBMIT</button></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
-</div>
-    
 </body>
 </html>
